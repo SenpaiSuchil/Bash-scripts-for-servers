@@ -1,0 +1,2 @@
+# Bash-scripts-for-servers
+Basics Bash scripts for basic server setup with services like LAMP stack, FTP system, Docker and more
