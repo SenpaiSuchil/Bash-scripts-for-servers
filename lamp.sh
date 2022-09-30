@@ -18,7 +18,7 @@ else
     fi
     
     echo "el directorio si existe"
-    sudo apt-get -y install apache2 2> $errorLog
+     apt-get -y install apache2 2> $errorLog
     if [ $? -ne 0 ]
     then    
         echo "an error has been detected plz check $errorLog for details"
