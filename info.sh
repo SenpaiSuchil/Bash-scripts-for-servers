@@ -30,7 +30,7 @@
 #   this will install the open-ssh server, the key of every server
 #   check the doc about how to configure ssh server because im still developing the auto config scripts
 # 3.- lamp.sh:
-#   this will install the apache server, mysql (mariadb) and 2 versions of php (7.0 and 8.0)
+#   this will install the apache server, mysql (mariadb) and 2 versions of php (7.0 and 7.2)
 #   yes
 
 
