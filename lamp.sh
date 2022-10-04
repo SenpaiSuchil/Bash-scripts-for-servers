@@ -12,7 +12,7 @@ command2= apt list --installed | grep '$service2*'
 errorLog1="/home/$USER/bashScripts/$service1/errorLog.log"
 errorLog2="/home/$USER/bashScripts/$service2/errorLog.log"
 
-if command -v $command && command -v $command2
+if command -v $command2
 then
     echo "apache2 is already installed on your server :)"
 else
