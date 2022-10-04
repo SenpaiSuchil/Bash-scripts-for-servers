@@ -21,6 +21,7 @@
 #of install a new linux distro for a server and then all the services that you need to install
 #maybe one day i will modify an ISO image of debian but again, i need to practice bash scripting so here we are haha
 #this scripts only install the packages this not configure nothing so go and check out the doc of each service
+#RUN THIS AS ROOT BECAUSE I DIDN´T USE SUDO
 
 #         Ａｂｏｕｔ　ｆｉｌｅｓ：
 # 1.- sandevistan.sh:
