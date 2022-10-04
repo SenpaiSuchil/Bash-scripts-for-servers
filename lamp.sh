@@ -4,18 +4,9 @@
 service1=apache2
 service2=mariadb-server
 
-command1= apt list --installed | grep '$service1*'
-command2= apt list --installed | grep '$service2*'
-
-
-
 errorLog1="/home/$USER/bashScripts/$service1/errorLog.log"
 errorLog2="/home/$USER/bashScripts/$service2/errorLog.log"
 
-if command -v $command2
-then
-    echo "apache2 is already installed on your server :)"
-else
     echo "starting the download"
     
     if ! [ -d "${erroLog%/*}" ]
@@ -27,7 +18,7 @@ else
     fi
     
     echo "installing $service1 and $service2"
-    sleep 2
+     sleep 2
      apt-get -y install $service1 2> $errorLog1
      apt-get -y install $service1 2> $errorLog2
 
