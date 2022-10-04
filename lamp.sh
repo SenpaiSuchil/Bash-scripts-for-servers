@@ -20,7 +20,7 @@ errorLog2="/home/$USER/bashScripts/$service2/errorLog.log"
     echo "installing $service1 and $service2"
      sleep 2
      apt-get -y install $service1 2> $errorLog1
-     apt-get -y install $service1 2> $errorLog2
+     apt-get -y install $service2 2> $errorLog2
 
      apt-get install curl wget gnupg2 ca-certificates lsb-release apt-transport-https -y
      wget https://packages.sury.org/php/apt.gpg
@@ -39,4 +39,3 @@ errorLog2="/home/$USER/bashScripts/$service2/errorLog.log"
     else
         echo "lamp stack has been installed without errors"
     fi
-fi
