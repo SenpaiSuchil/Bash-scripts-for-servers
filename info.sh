@@ -26,9 +26,12 @@
 # 1.- sandevistan.sh:
 #   this file will run all the scripts, this is the more powerful and colorful script but be careful
 #   the sandevistan will fry your head or your cpu or both
-#2.- LAMP stack:
-#   sus
-#here will be a description of each file and what does
+# 2.- ssh.sh:
+#   this will install the open-ssh server, the key of every server
+#   check the doc about how to configure ssh server because im still developing the auto config scripts
+# 3.- lamp.sh:
+#   this will install the apache server, mysql (mariadb) and 2 versions of php (7.0 and 8.0)
+#   yes
 
 
 #follow me on youtube i make Lo-fi beats
