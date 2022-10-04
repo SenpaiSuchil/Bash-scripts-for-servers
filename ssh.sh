@@ -1,3 +1,4 @@
+#!/bin/bash
 #this script will install the open ssh server, the key of every server
 #again plz check the ssh documentation because im still developing the scripts for auto config on each service
 #enjoy
